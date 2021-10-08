@@ -1,0 +1,121 @@
+body {
+  margin: 0px;
+  height: 500vh;
+  background: rgb(133, 201, 171);
+  background: linear-gradient(
+    70deg,
+    rgb(21, 54, 51) 5%,
+    rgb(133, 201, 171) 45%,
+    rgb(21, 54, 51) 100%
+  );
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+}
+
+header li {
+  position: fixed;
+  opacity: 95%;
+  height: 125px;
+  width: 725px;
+  list-style: none;
+  display: flex;
+  top: 0px;
+  z-index: 3;
+  padding-left: 700px;
+  padding-top: 50px;
+  margin-top: 0px;
+
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.tourist-attractions {
+  text-align: center;
+  margin: -100px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: bolder;
+  color: white;
+}
+
+.box {
+  position: relative;
+  display: flexbox;
+  text-align: center;
+}
+
+.box img {
+  height: 500px;
+  width: 800px;
+  border-radius: 20px;
+}
+
+.box1 {
+  left: 0px;
+  padding-top: 0px;
+}
+.box2 {
+  left: 0px;
+  padding-top: 10px;
+}
+.box3 {
+  left: 0px;
+  padding-top: 10px;
+}
+.box4 {
+  left: 0px;
+  padding-top: 10px;
+}
+.box5 {
+  left: 0px;
+  padding-top: 10px;
+}
+.box6 {
+  left: 0px;
+  padding-top: 10px;
+}
+
+footer {
+  position: relative;
+  background-color: white;
+  opacity: 95%;
+  height: 190px;
+  width: 1330px;
+  display: flex;
+  top: 125px;
+  z-index: 1;
+  padding-left: 100px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border: #85c9ab solid;
+  border-width: 5px;
+  border-style: ridge;
+  opacity: 80%;
+}
+
+footer img {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  position: relative;
+  padding: 170px;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  opacity: 80%;
+}
